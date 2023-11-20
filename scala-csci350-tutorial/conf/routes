@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                  controllers.HomeController.index()
+
+# Task-related routes
+GET     /tasks             controllers.HomeController.getTasks()
+POST    /tasks             controllers.TaskController.addTask()
+GET     /tasks/:id         controllers.TaskController.getTask(id: Long)
+DELETE  /tasks/:id         controllers.TaskController.deleteTask(id: Long)
+
+# New route for task details
+GET     /task/:id          controllers.HomeController.getTaskDetails(id: Long)
+
+# Assets
+GET     /assets/*file    controllers.Assets.versioned(path="/public", file: Asset)

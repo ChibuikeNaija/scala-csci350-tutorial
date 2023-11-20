@@ -1,0 +1,228 @@
+2023.11.20 13:05:25 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial' for client Visual Studio Code 1.84.2.
+2023.11.20 13:05:26 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.20 13:05:36 INFO  running 'C:\Program Files\Java\jdk-17.0.2\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\jijem\AppData\Local\Temp\metals10151130713762237332\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.20 13:05:38 INFO  [info] welcome to sbt 1.9.7 (Oracle Corporation Java 17.0.2)
+2023.11.20 13:05:42 INFO  [info] loading settings for project scala-csci350-tutorial-build-build-build from metals.sbt ...
+2023.11.20 13:05:44 INFO  [info] loading project definition from C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\project\project
+2023.11.20 13:05:48 INFO  [info] loading settings for project scala-csci350-tutorial-build-build from metals.sbt ...
+2023.11.20 13:05:48 INFO  [info] loading project definition from C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\project
+2023.11.20 13:05:56 INFO  [success] Generated .bloop\scala-csci350-tutorial-build-build.json
+2023.11.20 13:05:56 INFO  [success] Total time: 8 s, completed Nov 20, 2023, 1:05:56 PM
+2023.11.20 13:05:58 INFO  [info] loading settings for project scala-csci350-tutorial-build from metals.sbt,plugins.sbt ...
+2023.11.20 13:05:58 INFO  [info] loading project definition from C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project
+2023.11.20 13:06:08 INFO  [success] Generated .bloop\scala-csci350-tutorial-build.json
+2023.11.20 13:06:08 INFO  [success] Total time: 10 s, completed Nov 20, 2023, 1:06:08 PM
+2023.11.20 13:06:12 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.20 13:06:12 INFO  [info]   __              __
+2023.11.20 13:06:12 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.20 13:06:12 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.20 13:06:12 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.20 13:06:12 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.20 13:06:12 INFO  [info]       /_/               /____/
+2023.11.20 13:06:12 INFO  [info] 
+2023.11.20 13:06:12 INFO  [info] Version 3.0.0 running Java 17.0.2
+2023.11.20 13:06:12 INFO  [info] 
+2023.11.20 13:06:12 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.20 13:06:12 INFO  [info] https://www.playframework.com/sponsors
+2023.11.20 13:06:12 INFO  [info] 
+2023.11.20 13:06:23 INFO  [success] Generated .bloop\root.json
+2023.11.20 13:06:23 INFO  [success] Generated .bloop\root-test.json
+2023.11.20 13:06:23 INFO  [success] Total time: 11 s, completed Nov 20, 2023, 1:06:23 PM
+2023.11.20 13:06:23 INFO  time: ran 'sbt bloopInstall' in 47s
+2023.11.20 13:06:23 INFO  Attempting to connect to the build server...
+2023.11.20 13:06:23 INFO  Setting up current java home C:\Program Files\Java\jdk-17.0.2 in C:\Users\jijem\.bloop\bloop.json
+2023.11.20 13:06:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 13:06:47 INFO  Attempting to connect to the build server...
+2023.11.20 13:06:47 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 13:06:47 INFO  Attempting to connect to the build server...
+2023.11.20 13:06:47 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 13:06:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\project\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 13:06:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 13:06:50 INFO  time: Connected to build server in 26s
+2023.11.20 13:06:50 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.20 13:06:51 INFO  time: Imported build in 0.34s
+2023.11.20 13:07:05 INFO  time: indexed workspace in 14s
+2023.11.20 13:11:08 INFO  compiling root (7 scala sources and 1 java source)
+2023.11.20 13:11:23 INFO  time: compiled root in 15s
+2023.11.20 13:11:37 INFO  compiling root (1 scala source)
+2023.11.20 13:11:37 INFO  time: compiled root in 0.61s
+2023.11.20 13:12:14 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:14 INFO  time: compiled root in 0.38s
+2023.11.20 13:12:14 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:14 INFO  time: compiled root in 0.26s
+2023.11.20 13:12:15 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:15 INFO  time: compiled root in 0.17s
+2023.11.20 13:12:37 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:37 INFO  time: compiled root in 0.34s
+2023.11.20 13:12:47 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:47 INFO  time: compiled root in 0.27s
+2023.11.20 13:12:51 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:51 INFO  time: compiled root in 0.31s
+2023.11.20 13:12:55 INFO  compiling root (2 scala sources)
+2023.11.20 13:12:55 INFO  time: compiled root in 0.27s
+Nov 20, 2023 1:17:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+2023.11.20 13:21:28 INFO  compiling root (9 scala sources and 1 java source)
+2023.11.20 13:21:33 INFO  time: compiled root in 5.63s
+2023.11.20 13:29:07 INFO  compiling root (1 scala source)
+2023.11.20 13:29:07 INFO  time: compiled root in 0.24s
+2023.11.20 13:29:08 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:29:12 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:29:12 INFO  compiling root (1 scala source)
+2023.11.20 13:29:12 INFO  time: compiled root in 0.25s
+2023.11.20 13:29:13 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:29:43 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:30:22 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:33:51 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.20 13:33:51 INFO  time: compiled root in 0.73s
+2023.11.20 13:36:01 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:37:20 INFO  compiling root (11 scala sources and 1 java source)
+Nov 20, 2023 1:37:20 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2023 1:37:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\.metals\.reports\metals-full\2023-11-20\r_compiler-error_(root)_13-37-20-816.md
+2023.11.20 13:37:20 INFO  time: compiled root in 0.65s
+2023.11.20 13:37:20 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:37:21 INFO  time: compiled root in 0.52s
+2023.11.20 13:37:21 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:37:21 INFO  time: compiled root in 0.41s
+2023.11.20 13:37:24 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:37:24 INFO  time: compiled root in 0.45s
+2023.11.20 13:37:45 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:37:45 INFO  time: compiled root in 0.4s
+2023.11.20 13:37:53 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:37:53 INFO  time: compiled root in 0.39s
+2023.11.20 13:37:58 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:37:58 INFO  time: compiled root in 0.39s
+2023.11.20 13:38:03 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:38:03 INFO  time: compiled root in 0.39s
+2023.11.20 13:38:08 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:38:08 INFO  time: compiled root in 0.4s
+2023.11.20 13:38:13 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.20 13:38:13 INFO  time: compiled root in 0.4s
+2023.11.20 13:38:22 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:40:56 INFO  compiling root (12 scala sources and 1 java source)
+Nov 20, 2023 1:40:56 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 20, 2023 1:40:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\.metals\.reports\metals-full\2023-11-20\r_compiler-error_(root)_13-40-56-740.md
+2023.11.20 13:40:56 INFO  time: compiled root in 0.42s
+2023.11.20 13:40:56 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:40:56 INFO  time: compiled root in 0.35s
+2023.11.20 13:40:57 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:40:57 INFO  time: compiled root in 0.27s
+2023.11.20 13:41:01 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:01 INFO  time: compiled root in 0.66s
+2023.11.20 13:41:07 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:07 INFO  time: compiled root in 0.46s
+2023.11.20 13:41:16 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:16 INFO  time: compiled root in 0.39s
+2023.11.20 13:41:32 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:32 INFO  time: compiled root in 0.39s
+2023.11.20 13:41:37 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:37 INFO  time: compiled root in 0.38s
+2023.11.20 13:41:40 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:40 INFO  time: compiled root in 0.43s
+2023.11.20 13:41:43 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:43 INFO  time: compiled root in 0.44s
+2023.11.20 13:41:50 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:41:50 INFO  time: compiled root in 0.47s
+2023.11.20 13:43:17 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:43:17 INFO  time: compiled root in 0.43s
+Nov 20, 2023 1:43:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 364
+2023.11.20 13:43:51 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:43:51 INFO  time: compiled root in 0.35s
+2023.11.20 13:43:52 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:43:52 INFO  time: compiled root in 0.83s
+2023.11.20 13:43:56 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:43:56 INFO  time: compiled root in 0.21s
+2023.11.20 13:43:58 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:43:58 INFO  time: compiled root in 0.18s
+2023.11.20 13:44:00 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:44:00 INFO  time: compiled root in 0.52s
+2023.11.20 13:44:04 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:44:04 INFO  time: compiled root in 0.43s
+2023.11.20 13:44:06 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:44:06 INFO  time: compiled root in 0.61s
+2023.11.20 13:44:14 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:44:14 INFO  time: compiled root in 0.63s
+Nov 20, 2023 1:45:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 446
+2023.11.20 13:45:42 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:45:42 INFO  time: compiled root in 0.44s
+2023.11.20 13:45:44 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:45:44 INFO  time: compiled root in 0.48s
+2023.11.20 13:45:48 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:45:48 INFO  time: compiled root in 0.42s
+2023.11.20 13:47:18 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:41 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:41 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:42 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:47:42 INFO  time: compiled root in 0.48s
+2023.11.20 13:47:43 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:43 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:47:43 INFO  time: compiled root in 0.56s
+2023.11.20 13:47:44 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:49 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:49 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:47:50 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:47:50 INFO  time: compiled root in 0.46s
+2023.11.20 13:47:51 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:30 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:34 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:34 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:34 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:35 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:48:35 INFO  time: compiled root in 0.46s
+2023.11.20 13:48:36 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:49 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:53 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:48:54 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:48:54 INFO  time: compiled root in 0.37s
+2023.11.20 13:48:55 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:33 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:46 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:49 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:50 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:49:50 INFO  time: compiled root in 0.43s
+2023.11.20 13:49:51 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:51 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:49:52 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:51 INFO  time: compiled root in 0.53s
+2023.11.20 13:49:52 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:49:53 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:49:53 INFO  time: compiled root in 0.36s
+2023.11.20 13:49:53 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:51:04 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:51:05 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:51:06 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:51:06 INFO  time: compiled root in 0.39s
+2023.11.20 13:51:07 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 13:51:07 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 13:51:07 INFO  time: compiled root in 0.38s
+2023.11.20 13:51:08 WARN  Could not load snapshot text for C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\app\controllers\HomeController.scala
+2023.11.20 14:30:21 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 14:30:21 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 14:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 14:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 14:30:21 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.20 14:30:21 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 14:30:21 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 14:30:21 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.20 14:30:21 INFO  Bloop uses C:\Program Files\Java\jdk-17.0.2 defined at C:\Users\jijem\.bloop\bloop.json
+2023.11.20 14:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 14:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\project\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 14:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\jijem\source\CSCI350\repos\scala-csci350-tutorial\project\.metals\bsp.trace.json or C:\Users\jijem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.20 14:30:21 INFO  compiling root (12 scala sources and 1 java source)
+2023.11.20 14:30:27 INFO  time: compiled root in 5.42s
+2023.11.20 14:32:24 INFO  Shutting down server
+2023.11.20 14:32:24 INFO  shutting down Metals
+2023.11.20 14:32:24 INFO  Shut down connection with build server.
+2023.11.20 14:32:24 INFO  Shut down connection with build server.
+2023.11.20 14:32:24 INFO  Shut down connection with build server.
+2023.11.20 14:32:24 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.11.20 14:32:24 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+2023.11.20 14:32:24 INFO  Exiting server

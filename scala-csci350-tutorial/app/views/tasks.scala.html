@@ -1,0 +1,16 @@
+@(tasks: List[Task])
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task List</title>
+    </head>
+    <body>
+        <h2>Task List</h2>
+        <ul>
+            @for(task <- tasks) {
+                <li>@task.label</li>
+            }
+        </ul>
+    </body>
+</html>

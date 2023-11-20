@@ -1,0 +1,22 @@
+@(tasks: List[Task])
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Management</title>
+    </head>
+    <body>
+        <h1>Welcome to Task Management!</h1>
+
+        <h2>Task List</h2>
+        <ul>
+            @for(task <- tasks) {
+                <li>
+                    <a href="@routes.HomeController.getTaskDetails(task.id)">
+                        @task.label
+                    </a>
+                </li>
+            }
+        </ul>
+    </body>
+</html>
